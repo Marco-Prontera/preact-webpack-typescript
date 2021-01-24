@@ -5,6 +5,10 @@
 [Webpack 5](https://github.com/webpack/webpack)
 [Typescript](https://github.com/microsoft/TypeScript)
 
+Versions used to build the project:
+* Node: v10.23.0
+* Typescript: "^4.1.3"
+
 # setup
 ```
 npm install
