@@ -1,0 +1,19 @@
+{
+  "env": {
+    "test": {
+      "presets": [
+        ["preact-cli/babel", { "modules": "commonjs" }]
+      ]
+    }
+  },
+  "presets": [
+    "@babel/env",
+    ["@babel/typescript", { "jsxPragma": "h" }],
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-react-jsx", {
+      "pragma": "h",
+      "pragmaFrag": "Fragment",
+    }]
+  ]
+}

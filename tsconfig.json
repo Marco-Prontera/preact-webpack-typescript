@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact",
+		"outDir": "./dist",
+		"target": "ES5",
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"noImplicitAny": false,
+		"removeComments": true,
+		"sourceMap": true,
+	},
+	"suppressImplicitAnyIndexErrors": true,
+	"lib": [
+		"dom",
+		"es2017"
+	],
+	"baseUrl": ".",
+	"exclude": [
+		"dist"
+	]
+}
