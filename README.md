@@ -9,6 +9,12 @@ Versions used to build the project:
 * Node: v14.15.4
 * Typescript: 4.1.3
 
+# Node setup
+Use the last Node lts version
+```
+nvm use --lts
+```
+
 # setup
 ```
 npm install
