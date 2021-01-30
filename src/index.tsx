@@ -4,7 +4,6 @@ import {h, render} from "preact";
 const rootElement = document.getElementById("app");
 if (rootElement.hasChildNodes()) {
     render(<App />, rootElement, rootElement.firstElementChild);
-}
-else {
+} else {
     render(<App />, rootElement);
 }
