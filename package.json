@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "webpack --config ./webpack.config.js --mode production --progress",
-    "start": "webpack serve --config ./webpack.config.js --mode development"
+    "start": "webpack serve --config ./webpack.config.js --mode development",
+    "docker-start": "webpack serve --config ./webpack.config.js --mode development --host 0.0.0.0"
   },
   "eslintConfig": {
     "extends": "preact",
