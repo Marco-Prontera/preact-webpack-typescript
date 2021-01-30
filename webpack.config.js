@@ -44,7 +44,6 @@ module.exports = {
         },
         contentBase: './dist',
         compress: true,
-        port: 3030,
         historyApiFallback: true,
     },
     optimization: {

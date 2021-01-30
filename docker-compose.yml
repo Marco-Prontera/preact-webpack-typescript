@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: "npm run docker-start"
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/usr/src/app:cached
+      - /usr/src/app/node_modules
+    working_dir: /usr/src/app
