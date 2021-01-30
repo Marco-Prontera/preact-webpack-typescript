@@ -1,5 +1,5 @@
 import App from './components/app';
-import {h, render} from "preact";
+import { h, render } from "preact";
 
 const rootElement = document.getElementById("app");
 if (rootElement.hasChildNodes()) {
