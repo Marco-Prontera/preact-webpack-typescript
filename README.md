@@ -14,7 +14,7 @@ Optional usage of docker-compose to develop locally:
 * [Docker](https://docs.docker.com/compose/)
 * [Node.js](https://nodejs.org/)
 
-#Setup with docker-compose
+# Setup with docker-compose
 Before using the following commands,
 make sure you have properly installed docker-compose on your machine.
 
@@ -38,7 +38,7 @@ make destroy
 make terminal
 ```
 
-#Setup without docker-compose
+# Setup without docker-compose
 The following commands are useful to setup and starts
 without the usage of docker-compose.
 
