@@ -6,8 +6,8 @@
 [Typescript](https://github.com/microsoft/TypeScript)
 
 Versions used to build the project:
-* Node: v10.23.0
-* Typescript: "^4.1.3"
+* Node: v14.15.4
+* Typescript: 4.1.3
 
 # setup
 ```
