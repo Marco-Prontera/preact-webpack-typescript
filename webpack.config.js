@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const path              = require('path');
+const path = require('path');
 
 module.exports = {
     entry: './src/index.tsx',
@@ -30,10 +30,16 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [
-                    { loader: "style-loader" },
-                    { loader: "css-loader", options: { modules: true } },
-                    { loader: "sass-loader" },
-                    { loader: "css-modules-typescript-loader"},
+                    {loader: "style-loader"},
+                    {
+                        loader: "css-loader", options: {
+                            modules: {
+                                localIdentName: '[hash:base64:3]'
+                            },
+                        }
+                    },
+                    {loader: "sass-loader"},
+                    {loader: "css-modules-typescript-loader"},
                 ]
             },
         ]
